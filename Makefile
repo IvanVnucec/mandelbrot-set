@@ -1,7 +1,7 @@
 CC=gcc
 CXX=g++
 RM=rm -f
-CPPFLAGS=-g -std=c++17 -O2
+CPPFLAGS=-g -std=c++17 -O2 -IolcPixelGameEngine
 LDFLAGS=-g
 LDLIBS=-lX11 -lGL -lpthread -lpng -lstdc++fs
 
